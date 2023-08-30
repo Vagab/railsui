@@ -25,7 +25,7 @@ Gem.loaded_specs['railsui'].dependencies.each do |d|
 
       initializer 'local_helper.action_mailer' do
         ActiveSupport.on_load :action_mailer do
-          helper Railsui::MailHelper
+          # helper Railsui::MailHelper
         end
       end
 
